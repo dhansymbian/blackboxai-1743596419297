@@ -1,0 +1,28 @@
+name: diabetes_tracker
+description: A comprehensive diabetes tracking application
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  fl_chart: ^0.63.0
+  flutter_local_notifications: ^15.1.1
+  intl: ^0.18.1
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
